@@ -1,0 +1,148 @@
+body {
+  font-family: sans-serif;
+}
+
+header {
+  background-image:linear-gradient(to left,#D9C49C,#A67B56,#734B34,#403332);
+  width: 1200px;
+  height: 300px;
+  padding: 29px;
+}
+
+header p {
+  color: rgb(233, 229, 229);
+  font-size: 45px;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 30px;
+  padding: 10px;
+  border: 3px solid rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+  background-color: rgb(222, 224, 225);
+}
+
+nav a:hover {
+  background-color: rgba(156, 161, 156, 0.455);
+  transition: 0.5s;
+}
+
+.more {
+  text-decoration: none;
+  font-size: 30px;
+  padding: 10px;
+  border: 3px solid rgb(102, 100, 100);
+  color: rgb(68, 70, 68);
+  border-radius: 10px;
+}
+
+.more:hover {
+  background-color: rgba(156, 161, 156, 0.455);
+  transition: 0.5s background-color linear;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 60px;
+  min-height: 55vh;
+  box-sizing: border-box;
+}
+
+/* .hero-reverse {
+  flex-direction: row-reverse;
+} */
+
+.hero-text {
+  flex: 1;
+  max-width: 50%;
+  padding: 20px;
+}
+
+.hero-text h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.hero-text h2 {
+  font-size: 18px;
+  margin: 0 0 15px;
+  font-weight: normal;
+  color: #555;
+}
+
+.hero-text p {
+  font-size: 21px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+.hero-text button {
+  padding: 10px 20px;
+  background: none;
+  border: 1px solid #000;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.hero-text button:hover {
+  background-color: #000;
+  color: #fff;
+}
+.hero-image {
+  flex: 1;
+  max-width: 50%;
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  
+}
+main p {
+  font-size: 21px;
+}
+
+main h1 {
+  font-size: 35px;
+
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 30px;
+}
+
+.section {
+  text-align: left;
+}
+
+footer h2 {
+  font-size: 35px;
+  text-align: center;
+  padding-top:5px ;
+}
+
+h3 {
+  font-size: 21px;
+
+}
+
+footer {
+  background-color:antiquewhite;
+}
+
+footer p {
+  
+  font-size: 20px;
+}
